@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(8, 167, 207);
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ------------ variable */
+
+:root {
+    --fuente1: 'Architects Daughter', cursive;
+    --fuente2: 'Bangers', cursive;
+    --negro: rgb(0, 0, 0);
+    --blanco: rgb(245, 245, 245);
+    --gris: rgb(18, 102, 211);
+}
+
+/* ------------- header  */
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--negro);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_title {
+    font-size: 60px;
+    margin: 25px;
+    color: var(--blanco);
+    font-family: var(--fuente2);
+}
+
+.header_menu {
+    list-style: none;
+    display: flex;
+}
+
+.header_menu_container {
+    margin-right: 22px;
+}
+
+.header_menu li {
+    margin: 18px;
+}
+
+.header_menu a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--fuente1);
+}
+
+.header_menu a:hover {
+    color: rgb(18, 102, 211);
+    transition: 400ms;
+}
+
+/* ----------- fin header */
+
+/* ----------- main */
+
+.main {
+    background-color: var(--negro);
+    width: 100%;
+    height: 685;
+    display: flex;
+    justify-content: center;
+}
+
+.main_title {
+    color: var(--blanco);
+    font-size: 50px;
+    font-family: var(--fuente2);
+    margin-top: 150px;
+    padding-left: 26px;
+}
+
+.main_container hr {
+    width: 400px;
+}
+
+.main_container p {
+    color: var(--blanco);
+    font-family: var(--fuente2);
+    font-size: 40px;
+}
+
+.main_button {
+    background-color: var(--blanco);
+    width: 290px;
+    margin-left: 60px;
+    margin-top: 60px;
+    border: 0px;
+    border-radius: 40px;
+    height: 55px;
+    cursor: pointer;
+    outline:none
+}
+
+.main_button a {
+    text-decoration: none;
+    color: rgba(18, 102, 211);
+    font-size: 30px;
+    font-family: var(--fuente2);
+}
+
+.main_button:hover {
+    background-color: var(--gris);
+    width: 250px;
+    margin-left: 65px;
+    transition: 400ms;
+}
+
+.main_button a:hover {
+    color: var(--blanco);
+}
+
+/* ------- fin main */
+
